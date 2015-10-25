@@ -1,6 +1,3 @@
-$(document).ready(function(){
-	 $("#dummyClass").css();
-    $("#jcarousel").jcarousel({
-        transitions: true
-    });
+$(function() {
+    $('.jcarousel').jcarousel();
 });
